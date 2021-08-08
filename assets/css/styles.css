@@ -1,8 +1,15 @@
-.navbar.center .navbar-inner {
+.navbar-nav {
+    display: inline-block;
+}
+
+.navbar-default {
     text-align: center;
 }
 
-.navbar.center .navbar-inner .nav {
-    display:inline-block;
-    float: none;
+.navbar-light {
+    background: #5593B3;
+} 
+
+.navbar.container-fluid.nav-item.nav-link.color-text {
+    color: #ffffff;
 }
